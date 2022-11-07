@@ -20,16 +20,17 @@ body {
 .container {
     display: block;
     float: left;
-    padding: 20px;
-    max-width: 100%;
-    margin: 0 auto;
+    padding: 20px 0;
+    max-width: 98%;
+    width: 98%;
+    margin: 0 1%;
 }
 
 header{
     background: #fff; 
     display: block;
     float: left;   
-    padding: 20px;
+    padding: 20px 0;
     width: 100%;
     border-bottom: 1px solid #254159;
 }
@@ -99,7 +100,7 @@ section {
     display: block;
     float: left;    
     font-size: 1.5rem;  /* equivalente a 15px */
-    padding: 20px;    
+    padding: 20px 0;    
     width: 100%;
 }
 
@@ -140,7 +141,7 @@ footer {
     background-color: #254159;
     display: block;
     float: left;
-    padding: 20px;
+    padding: 20px 0;
     width: 100%;
 }
 
@@ -180,4 +181,85 @@ footer small {
         padding-left: 1%;
         padding-right: 1%;
     }
+}
+
+#banner {
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 60vh;
+}
+
+.container-legenda {
+    width: 30vw;
+    float: right;
+    margin: 10vh 10vh 0 0;
+}
+
+.legenda {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 5rem;
+}
+
+.legenda h5, .legenda h4 {
+    color: #254159;
+    line-height: 1.5rem;
+}
+
+.button-cta {
+    display: block;
+    background-color: orangered;
+    color: #FFFFFF;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 4px rgb(170, 120, 55);
+    padding: 10px 15px;
+    width: auto;
+    text-decoration: none;
+    font-weight: 300;
+    border-radius: 25px;
+    display: inline;
+    float: left;
+}
+
+#saiba-mais {
+    background-color: #eaeff3;
+    padding: 40px 0;
+}
+
+#saiba-mais p, #saiba-mais img {
+    width: 45%;
+    display: block;
+    float: left;
+    padding: 20px;
+    line-height: 2.2rem;
+    color: #254159;
+}
+
+#perguntas-frequentes {
+    background-color: #b8c8d6;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+dl {
+    margin: 20px 0;
+}
+
+dt {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #254159;
+    margin-bottom: 5px;
+}
+
+dd {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
 }
